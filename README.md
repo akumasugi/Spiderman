@@ -1,7 +1,7 @@
 <div align="center">
-<a href="https://i.ibb.co/5sLmWY1/IMG-20220422-211253.jpg"><img src="https://i.ibb.co/5sLmWY1/IMG-20220422-211253.jpg" alt="chitoge" border="0"></a>
+<a href="https://images7.alphacoders.com/108/1082482.jpg"><img src="https://images7.alphacoders.com/108/1082482.jpg" alt="Miles" border="0"></a>
 
-# **Miles Morales : A WHATSAPP BOT CREATED BY RONEN WITH RICH ANIME FEATURES**
+# **Miles Morales : A WHATSAPP BOT CREATED BY PARKER WITH RICH ANIME FEATURES**
 
 [![CodeFactor](https://www.codefactor.io/repository/github/shineiichijo/chitoge/badge)](https://www.codefactor.io/repository/github/shineiichijo/chitoge)
 
@@ -42,7 +42,7 @@
 
 ##  🚀 Team Aries
 
-<a href="https://github.com/Ronen6999">
+<a href="https://github.com/ProSpotGamer">
 
 
 
