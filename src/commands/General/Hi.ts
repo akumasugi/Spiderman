@@ -18,16 +18,16 @@ export default class Command extends BaseCommand {
 	}
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
-		const chitoge =
-			"https://c.tenor.com/1xVRVwlbveEAAAPo/ps4-miles.mp4";
+		const miles =
+			"https://c.tenor.com/jmecdqvEmhkAAAAS/spiderman-miles-morales.mp4";
 		return void this.client.sendMessage(
 			M.from,
-			{ url: chitoge },
+			{ url: miles },
 			MessageType.video,
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `Yo!! Miles Morales at your service sir... Use something from *${this.client.config.prefix}help* list if you want anything. \n`,
+				caption: `Yo!! Miles Morales at your service Sir... Use something from *${this.client.config.prefix}help* list if you want anything. \n`,
 			}
 		);
 	};
