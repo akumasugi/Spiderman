@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const miles =
-			"https://www.icegif.com/wp-content/uploads/2021/12/icegif-1225.gif";
+			"https://c.tenor.com/1xVRVwlbveEAAAAC/ps4-miles.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: miles },
