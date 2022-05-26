@@ -25,7 +25,7 @@ export default class Command extends BaseCommand {
     let text = "";
     const users = [];
     if (flags.includes("--group")) {
-      text += "👑 *GROUP LEADERBOARD* 👑";
+      text += "🕷️ *GROUP LEADERBOARD* 🕷️";
       const members = await (
         await this.client.groupMetadata(M.from)
       ).participants;
@@ -34,7 +34,7 @@ export default class Command extends BaseCommand {
         users.push(User);
       }
     } else {
-      text += "👑 *LEADERBOARD* 👑";
+      text += "🕷️ *LEADERBOARD* 🕷️";
       const Users = await this.client.DB.user.find();
       for (let i = 0; i < Users.length; i++) {
         const User = await this.client.getUser(Users[i].jid);
@@ -103,7 +103,7 @@ export default class Command extends BaseCommand {
     }
     return void M.reply(
       await this.client.getBuffer(
-        "https://i.ibb.co/5sLmWY1/IMG-20220422-211253.jpg"
+        "https://i.ibb.co/18dsMD2/Miles-Morales-Spiderman-IPhone-Wallpaper-IPhone-Wallpapers.jpg"
       ),
       MessageType.image,
       undefined,
