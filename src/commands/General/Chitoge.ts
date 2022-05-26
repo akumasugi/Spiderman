@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `😎 *Miles Morales* 😎\n\n🍀 *Description: A WhatsApp Bot created by PARKER With Rich Anime Features.*\n\n🌐 *URL: https://github.com/ProSpotGamer/Miles-Bot.git* \n\n 📒 *Guide: https://github.com/ProSpotGamer/Miles-Bot.git* \n`,
+				caption: `🕷️ *Miles Morales* 🕷️\n\n🕷️ *Description: repo is private better luck next time.*\n\n🕷️ *insta id: https://www.instagram.com/akuma__24/?hl=en* \n\n 🕷️\n`,
 			}
 		);
 	};
