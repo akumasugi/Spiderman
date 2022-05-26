@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const miles =
-			"https://c.tenor.com/1xVRVwlbveEAAAAC/ps4-miles.mp4";
+			"https://tenor.com/view/miles-morales-gif-18761274";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: miles },
@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `Yo! WhatsUp! 🔥I'm Miles Morales🔥 Use something from *${this.client.config.prefix}help* list if you want anything. \n`,
+				caption: `Yo! WhatsUp! 🕷️I'm Miles Morales🕷️ Use something from *${this.client.config.prefix}help* \n`,
 			}
 		);
 	};
